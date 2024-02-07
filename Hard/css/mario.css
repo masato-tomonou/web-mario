@@ -1,0 +1,34 @@
+body{
+    width: 100%;
+    height: auto;
+    background-image: url("./title.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size:52vw 100%;
+    background-attachment: fixed;    
+    /* 背景画像が読み込まれる前に表示される背景のカラー */
+    background-color: #c06e0382;  
+}
+div{
+    text-align: center;
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+button{
+    font-size: 30px;
+    line-height: 1em;
+}
+article{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    margin-top: 25vh;
+    text-align: center;
+    font-size: 30px;
+    line-height: 1.0em;
+}
+h2{
+    color: rgb(227, 234, 241);
+}

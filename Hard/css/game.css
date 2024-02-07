@@ -1,0 +1,54 @@
+/* @font-face {
+  font-family: 'nintendo';
+  src: url(./emulogic.ttf) format('truetype');
+} */
+
+html, body, ul, li {
+  margin: 0;
+  border: 0;
+  padding: 0;
+}
+
+canvas {
+  display: block;
+  width: 762px;
+  margin: 0 auto;
+  background-color: blue;
+}
+
+p {
+  text-align: center;
+}
+
+body {
+  overflow: hidden;
+  height: 100%;
+  background-image: url(./famicon01_01_1\ \(3\).png);
+  background-repeat: no-repeat;
+  background-position: right,top;
+  background-color: #c06e0382;
+}
+
+html {
+  overflow: hidden;
+  height: 100%;
+}
+
+.info {
+  position: absolute;
+  top: 210px;
+  right: 50px;
+  color: aliceblue;
+  font-size: 20px;
+  /* font-family: 'nintendo'; */
+}
+.title{
+  position: absolute;
+  top: 10px;
+  left: 30px;
+  color: aliceblue;
+  /* font-family: 'nintendo'; */
+}
+.level{
+  font-size: 1.3rem;
+}
